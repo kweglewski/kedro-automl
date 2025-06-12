@@ -2,4 +2,6 @@ gss_wages:
   type: pandas.CSVDataset
   filepath: data/01_raw/gss_wages.csv
 
-
+predictions:
+  type: pandas.CSVDataset
+  filepath: data/08_predictions/predictions.csv
